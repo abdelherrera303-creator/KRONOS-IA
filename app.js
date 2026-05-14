@@ -12,19 +12,11 @@ respuestaKronos(texto);
 input.value="";
 }
 
-function respuestaKronos(texto){
+async function respuestaKronos(texto){
 
-let respuesta = "Estoy aprendiendo...";
+chat.innerHTML += "<p><b>Kronos:</b> pensando...</p>";
 
-if(texto.includes("hola")){
-respuesta="Hola. Soy KRONOS.";
-}
+const respuesta = await preguntarIA(texto);
 
-if(texto.includes("quien eres")){
-respuesta="Soy tu IA personal.";
-}
-
-chat.innerHTML += "<p><b>Kronos:</b> "+respuesta+"</p>";
-
-chat.scrollTop = chat.scrollHeight;
-}
+chat.innerHTML += "<p><b>Kronos:</b>"+respuesta+"</p>";
+}https://tuusuario.github.io/KRONOS-IA
