@@ -12,7 +12,7 @@ respuestaKronos(texto);
 input.value="";
 }
 
-async function respuestaKronos(texto){
+async function respuestaKronos(texto){kronosHablar(respuesta);
 
 chat.innerHTML += "<p><b>Kronos:</b> pensando...</p>";
 
