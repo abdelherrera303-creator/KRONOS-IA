@@ -29,4 +29,5 @@ respuestaKronos(texto);
 
 function iniciarEscucha(){
 reconocimiento.start();
-}
+}reconocimiento.continuous = true;
+
