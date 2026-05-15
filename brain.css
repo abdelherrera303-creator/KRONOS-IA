@@ -1,0 +1,13 @@
+body{
+background:black;
+color:#00ff88;
+font-family:Arial;
+text-align:center;
+}
+
+.panel{
+border:1px solid #00ff88;
+margin:20px;
+padding:20px;
+box-shadow:0 0 15px #00ff88;
+}
