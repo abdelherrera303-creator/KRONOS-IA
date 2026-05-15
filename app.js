@@ -20,3 +20,4 @@ const respuesta = await preguntarIA(texto);
 
 chat.innerHTML += "<p><b>Kronos:</b>"+respuesta+"</p>";
 }https://tuusuario.github.io/KRONOS-IA
+agregarMemoria(texto);
